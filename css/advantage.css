@@ -1,0 +1,48 @@
+.advantage {
+    height: 960px;
+    overflow: hidden;
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 85px;
+    padding-bottom: 35px;
+    background: #ffffff;
+    width: 100%;
+}
+
+.box-body {
+    margin-top: 85px;
+}
+
+.advantage .box-body .box-items .box-content .box-description {
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.advantage .box-body .box-items {
+    text-align: center;
+    cursor: pointer;
+    padding: 60px 5px;
+    box-shadow: 0px 0px 2px #eae2e2, 0px 0px 3px #e6dfdfd9;
+    border: none;
+    margin: 14px 15px;
+    transition: 0.4s;
+}
+
+.advantage .box-body .box-items:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 6px #e8e5e5, 0px 0px 10px #dddddd;
+}
+
+.advantage .box-body .box-items .box-content a {
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.advantage .box-body .box-items .box-content .box-description p {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #4c4c4c;
+}

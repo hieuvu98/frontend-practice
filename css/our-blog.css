@@ -1,0 +1,71 @@
+.our-blog {
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.our-blog .box-header .title h2.name {
+    font-family: OpenSans-Bold;
+    font-size: 24px;
+    color: #333333;
+}
+
+.our-blog .box-body .box-items {
+    transition: 0.4s;
+}
+
+.our-blog .box-body .box-items .box-image button.button {
+    background-color: #ab0534;
+}
+
+.our-blog .box-body .box-items:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 6px #e8e5e5, 0px 0px 10px #dddddd;
+}
+
+.our-blog .box-body .box-items .box-content .author span {
+    display: inline-block;
+    color: #666666;
+    font-size: 16px;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left a {
+    text-decoration: none;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left span {
+    color: #ab0534;
+    font-family: Roboto-Bold;
+    font-size: 14px;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left i.fa {
+    padding-left: 8px;
+    color: #ab0534;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-right span {
+    color: #999999;
+    font-family: Roboto-Bold;
+    font-size: 14px;
+}
+
+.our-blog .box-body .box-items:hover .box-content .view-blog .view-blog-right i.fa-heart {
+    color: #ab0534;
+}
+
+.our-blog .box-footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.our-blog .box-footer a {
+    cursor: pointer;
+}

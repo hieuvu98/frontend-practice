@@ -1,0 +1,124 @@
+/*Cateroties*/
+
+.categories {
+    height: 650px;
+    padding-top: 75px;
+    background-color: #f4f8ff;
+    overflow-x: hidden;
+}
+
+.categories .categories-title {
+    position: relative;
+    text-align: center;
+}
+
+.categories .categories-title h2 {
+    font-family: OpenSans-Bold;
+    font-size: 36px;
+}
+
+.categories .categories-title:hover:after {
+    left: 43%;
+    bottom: -17px;
+}
+
+.categories .categories-title:after {
+    position: absolute;
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: #000000;
+    left: 43%;
+    bottom: -12px;
+}
+
+.categories .categories-course {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 105px;
+}
+
+
+/*course items*/
+
+.categories .categories-course .course-item {
+    position: relative;
+    cursor: pointer;
+    width: 180px;
+    height: 140px;
+    margin: 15px 7px;
+    padding-top: 25px;
+    transition: 0.4s;
+}
+
+.categories .categories-course .course-item .content {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.categories .categories-course .course-item a {
+    text-decoration: none;
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #333333;
+}
+
+.categories .categories-course .course-item a i.icon-category {
+    font-size: 36px;
+    color: #ab0534;
+}
+
+.categories .categories-course .course-item:hover {
+    background-color: #ab0534;
+}
+
+.categories .categories-course .course-item:hover .content a {
+    color: #ffffff;
+}
+
+.categories .categories-course .course-item:hover .content a i {
+    color: #ffffff;
+}
+
+.categories .categories-course .course-item:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 145px;
+    background: #a6a6a6;
+    left: 0px;
+    top: 15px;
+    box-shadow: 180px 0 0 0 #a6a6a6;
+    transition: 0.4s;
+}
+
+.categories .categories-course .course-item:hover:after {
+    height: 0;
+    width: 0;
+    left: 0px;
+    top: 0px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.categories .categories-course .course-item:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 150px;
+    background: #a6a6a6;
+    left: 15px;
+    top: -1px;
+    box-shadow: 0 180px 0 0 #a6a6a6;
+    transition: 0.4s;
+}
+
+.categories .categories-course .course-item:hover:before {
+    left: 0;
+    top: 0;
+    width: 0;
+    box-shadow: none;
+    background-color: transparent;
+}

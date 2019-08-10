@@ -1,0 +1,120 @@
+.footer {
+    background-color: #292662;
+}
+
+.footer .contact {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #494679;
+}
+
+.footer .contact .contact-left {
+    width: 230px;
+}
+
+.footer .contact .contact-left .contact-left-top {
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.footer .contact .contact-left .contact-left-top span {
+    display: inline-block;
+    width: 215px;
+}
+
+.footer .contact .contact-left h4,
+b,
+span {
+    color: #ffffff;
+}
+
+.footer .contact .contact-left b {
+    font-family: Roboto-Bold;
+    font-size: 16px;
+}
+
+.footer .contact .contact-left .contact-left-top span {
+    display: inline-block;
+    width: 200px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer .contact .contact-left .contact-left-bottom {
+    line-height: 25px;
+}
+
+.footer .contact .contact-left .contact-left-bottom span {
+    display: inline-block;
+    width: 170px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer .contact .contact-right {
+    margin-left: 125px;
+}
+
+.footer .contact .contact-right .menu .list-group {
+    display: flex;
+}
+
+.footer .contact .contact-right .menu .list-group>li {
+    padding: 0px 60px 10px 60px;
+}
+
+.footer .contact .contact-right .menu .list-group>li>a {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #f4f8ff;
+    text-decoration: none;
+}
+
+.footer .contact .contact-right .menu .list-group .list-link {
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.footer .contact .contact-right .menu .list-group .sub-menu li {
+    padding: 8px 0px;
+}
+
+.footer .contact .contact-right .menu .list-group .sub-menu li a {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #f4f8ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .contact .contact-right .menu .list-group li.last-li {
+    padding-right: 0px;
+}
+
+.footer .contact .contact-right .menu .list-group .sub-menu li:hover a {
+    font-weight: bold;
+}
+
+.footer .copyright {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.footer .copyright span.copyright-left {
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .copyright span.copyright-right {
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color: #ffffff;
+}
