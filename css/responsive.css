@@ -53,7 +53,7 @@
         width: 75%;
         padding-left: 7%;
     }
-    .footer .contact .contact-right .menu .list-group>li {padding: 0px;width: 45%;}
+    .footer .contact .contact-right .menu .list-group>li {padding: 0px;width: 49%;}
     .footer .contact { padding-top: 50px; padding-bottom: 50px;}
     .footer .contact .contact-left .contact-left-bottom span { width: 70%; }
     .footer .copyright {
@@ -601,7 +601,7 @@
     .footer .copyright span.copyright-left {
         font-size: 14px;
     }
-    .footer .contact { padding-left: 15%; }
+    .footer .contact {padding-left: 10%;}
     .footer .contact .contact-left .contact-left-bottom { line-height: 30px; }
     .footer .contact .contact-left .contact-left-top { line-height: 28px; }
     .footer .contact .contact-left .contact-left-top span { width: 75%; }
@@ -610,7 +610,7 @@
     .footer .contact .contact-right .menu .list-group .sub-menu li a { font-size: 14px; }
     .footer .contact .contact-right .menu .list-group>li { width: 45%; }
     .footer .contact .contact-right .menu .list-group>li { padding: 5px 7px; width: 45%; }
-    .footer .contact .contact-right .menu .list-group>li {padding: 10px 7px;width: 40%;}
+    .footer .contact .contact-right .menu .list-group>li {padding: 10px 5px;width: 40%;}
     .footer .contact .contact-right .menu .list-group .sub-menu li { padding: 5px 0px; }
     .footer .contact .contact-right .menu .list-group .list-link { padding-bottom: 10px; }
 }
