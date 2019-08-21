@@ -1,0 +1,146 @@
+.testimonial {
+    background-color: #f7f9fa;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.testimonial .testimonial-header {
+    width: 390px;
+}
+
+.testimonial .testimonial-header h2.name {
+    font-size: 24px;
+}
+
+.testimonial .testimonial-header .title p {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    margin-top: 22px;
+    color: #666666;
+}
+
+.testimonial .testimonial-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-bottom: 2px solid #e6e7e8;
+    justify-content: space-between;
+}
+
+.testimonial .testimonial-body .testimonial-content-left {
+    width: 450px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .description {
+    padding-left: 30px;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .description img.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .description p {
+    font-family: Roboto-Italic;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .author {
+    margin-top: 40px;
+    width: 260px;
+    display: flex;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .author .info {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .author .info span.name {
+    display: block;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #000000;
+}
+
+.testimonial .testimonial-body .testimonial-content-left .author .info span.profession {
+    display: block;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    color: #666666;
+}
+
+.testimonial .testimonial-body .testimonial-content-right {
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    border-left: 2px solid #e6e7e8;
+}
+
+.testimonial .testimonial-body .testimonial-content-right i.fa {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.testimonial .testimonial-footer {
+    padding-top: 100px;
+}
+
+.testimonial .testimonial-footer p {
+    font-family: Roboto-Light;
+    font-size: 30px;
+    margin-left: 12%;
+    margin-bottom: 60px;
+}
+
+.testimonial .testimonial-footer .testimonial-slide{
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+.testimonial .testimonial-footer .testimonial-slide .slick{
+    position: absolute;
+    top: 8%;
+    left: 0%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.testimonial .testimonial-footer .testimonial-slide .slick-prev{
+    float: left;
+    cursor: pointer;
+}
+.testimonial .testimonial-footer .testimonial-slide .slick-next{
+    float: right;
+    cursor: pointer;
+}
+.testimonial .testimonial-footer .slide-logo{
+    width: 2400px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.testimonial .testimonial-footer .slide-logo .logo{
+    width: 9%;
+    text-align: center;
+    padding: 0px 36px;
+}
+.testimonial .testimonial-footer .slide-logo.truotsangphai{
+    transition: 1.2s;
+    transform: translateX(-1115px);
+}
+.testimonial .testimonial-footer .slide-logo.truotsangtrai{
+    transition: 1.2s;
+    transform: translateX(0);
+}

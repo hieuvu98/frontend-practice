@@ -1,0 +1,104 @@
+.our-blog {
+    margin-top: 70px; 
+    padding-bottom: 100px;
+}
+
+.our-blog .box-header .title h2.name {
+    font-family: OpenSans-Bold;
+    font-size: 24px;
+    color: #333333;
+}
+
+.our-blog .box-body .box-items {
+    transition: 0.4s;
+    /* margin-right: 5px; */
+}
+
+.our-blog .box-body .box-items .box-image button.button {
+    background-color: #ab0534;
+}
+
+.our-blog .box-body .box-items:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 6px #e8e5e5, 0px 0px 10px #dddddd;
+}
+
+.our-blog .box-body .box-items .box-content .author span {
+    display: inline-block;
+    color: #666666;
+    font-size: 16px;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left a {
+    text-decoration: none;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left span {
+    color: #ab0534;
+    font-family: Roboto-Bold;
+    font-size: 14px;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-left i.fa {
+    padding-left: 8px;
+    color: #ab0534;
+}
+
+.our-blog .box-body .box-items .box-content .view-blog .view-blog-right span {
+    color: #999999;
+    font-family: Roboto-Bold;
+    font-size: 14px;
+}
+
+.our-blog .box-body .box-items:hover .box-content .view-blog .view-blog-right i.fa-heart {
+    color: #ab0534;
+}
+
+.our-blog .box-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-blog .box-footer ul li {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #8a8181;
+    text-indent: -9999px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    transition: 0.4s;
+}
+.our-blog .box-footer ul li.list-active{
+    background-color: #8a8181;
+    transition: 0.4s;
+}
+/*slide*/
+.our-blog .box-body-slide{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.our-blog .box-body-slide ul{
+    width: 400%;
+    transition: 1s;
+    transform: translateX(0px);
+}
+.our-blog .box-body-slide ul li{
+    display: inline-block;
+    width: 8%;
+    margin-left: 10px;
+}
+
+.our-blog .box-body-slide  ul.so0{transform: translateX(0px);}
+.our-blog .box-body-slide  ul.so1{transform: translateX(-380px);}
+.our-blog .box-body-slide  ul.so2{transform: translateX(-770px);}

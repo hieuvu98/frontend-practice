@@ -1,0 +1,141 @@
+/*HEADER*/
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #ab0534;
+    line-height: 100px;
+    margin: auto auto;
+}
+
+
+.header .logo-header {
+    width: 21%;
+}
+
+.header .logo-header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header .logo-header a span:first-child {
+    font-family: Roboto-Black;
+    font-size: 48px;
+}
+
+.header .logo-header a span {
+    font-family: Roboto-Light;
+    font-size: 42px;
+}
+
+.header #header-align {
+    display: flex;
+}
+
+.header .header-nav {
+    display: flex;
+    /* margin-left: 75px; */
+    width: 79%;
+}
+
+.header .header-nav .nav-left {
+    width: 41%;
+}
+
+.header .header-nav .list-group {
+    display: flex;
+}
+
+.header .header-nav .list-group .dropdown-menu {
+    position: relative;
+    padding-right: 25px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.header .header-nav .list-group .dropdown-menu a.list-link {
+    font-family: OpenSans-Semibold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f2f7ff;
+}
+
+.header .header-nav .list-group .dropdown-menu:hover a.list-link {
+    color: #af9797;
+}
+
+.header .header-nav .nav-right {
+    width: 59%;
+    padding-left: 18%;
+}
+
+.header .header-nav .nav-right input#search {
+    position: absolute;
+    top: 37%;
+    outline: none;
+    border: 1px solid #ab0534;
+    border-radius: 8px;
+    padding: 3px 5px;
+    font-size: 13px;
+    width: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    transform: translateX(-10px);
+}
+
+.header .header-nav .nav-right input#search.search-to-left {
+    transform: translateX(-190px);
+    visibility: visible;
+    width: 170px;
+    opacity: 1;
+}
+
+.header .header-nav .nav-right .list-group {
+    display: flex;
+}
+.header .header-nav .nav-right .toggle-menu {
+    color: white;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+.header .header-nav .nav-right .list-group span {
+    color: #f2f7ff;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-family: Roboto-Light;
+}
+
+.header .header-nav .nav-right .list-group li {
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .header-nav .nav-right .list-group li a {
+    font-size: 20px;
+    color: #f2f7ff;
+}
+
+.header .header-nav .nav-right .list-group .fa {
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.header .header-nav .nav-right .list-group li a:hover {
+    color: #cabebe;
+}
+
+.header .header-nav .nav-right .list-group .box-search {
+    padding-left: 20px;
+}
+
+.header .header-nav .nav-right .list-group .box-search a {
+    font-size: 16px;
+    color: #f2f7ff;
+    font-family: OpenSans-SemiBold;
+    text-decoration: none;
+}

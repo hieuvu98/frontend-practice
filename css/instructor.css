@@ -1,0 +1,89 @@
+.instructor {
+    height: 345px;
+    overflow: hidden;
+    background-image: url('../images/bg-instructor_05.png');
+    background-size: cover;
+}
+
+.instructor .instructor-banner {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.instructor .instructor-banner .text-center h2 {
+    font-family: OpenSans-Regular;
+    font-size: 32px;
+    color: #333333;
+    letter-spacing: 2px;
+}
+
+.instructor .instructor-banner .join {
+    margin-top: 50px;
+}
+
+.instructor .instructor-banner .join input {
+    width: 45%;
+    padding: 20px 60px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.instructor .instructor-banner .join input::placeholder {
+    color: #000000;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+}
+
+.instructor .instructor-banner .join button {
+    cursor: pointer;
+    padding: 19px 85px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-left: -140px;
+    background-color: #ab0534;
+    letter-spacing: 2px;
+}
+
+.instructor .instructor-banner .join button a {
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.a {
+    color: #E7484F
+}
+
+.b {
+    color: #F68B1D
+}
+
+.c {
+    color: #FCED00
+}
+
+.d {
+    color: #009E4F
+}
+
+.e {
+    color: #00AAC3
+}
+
+.f {
+    color: #732982
+}
+
+.instructor .instructor-banner .join button:hover {
+    background-image: linear-gradient(#F68B1D, #E7484F);
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}

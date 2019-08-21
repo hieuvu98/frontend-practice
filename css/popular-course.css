@@ -1,0 +1,36 @@
+.popular-course {
+    background-color: #f7f9fa;
+    margin-bottom: 35px;
+    margin-top: 80px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.popular-course .box-header {
+    display: block;
+}
+
+.popular-course .box-header .title {
+    width: 388px;
+}
+
+.popular-course .box-course .box-body .box-items {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: none;
+}
+
+.popular-course .box-course .box-body .box-items .title {
+    position: absolute;
+    width: 230px;
+    top: 33px;
+    left: 60px;
+    text-align: center;
+}
+
+.popular-course .box-course .box-body .box-items .title h2 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #ffffff;
+}
