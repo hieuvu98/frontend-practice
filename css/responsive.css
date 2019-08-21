@@ -533,12 +533,12 @@
         display: flex;
         padding-top: 30px;
         flex-wrap: wrap;
-        padding-left: 10%;
+        padding-left: 3%;
     }
     .footer .copyright span.copyright-left {
         display: block;
     }
-    .footer .contact .contact-right {width: 100%;padding-left: 2px;}
+    .footer .contact .contact-right {width: 100%;padding: 0px;}
     .footer .copyright {
         display: inline-block;
         text-align: center;
@@ -548,10 +548,6 @@
     .footer .copyright span {
         font-size: 14px;
     }
-    .footer .contact .contact-left .contact-left-top {width: 45%;}
-    .footer .contact .contact-left .contact-left-top span {width: 90%;}
-    .footer .contact .contact-right .menu .list-group>li {width: 45%;padding: 20px 0px;}
-    .footer .contact .contact-left .contact-left-bottom {width: 35%;}
     .footer .contact .contact-left {padding-left: 0px;width: 100%;display: flex;}
     .footer .contact .contact-left .contact-left-bottom span {  width: 70%; }
     .footer .contact .contact-right .menu .list-group {
@@ -597,22 +593,21 @@
     .our-blog .box-body-slide ul.so2 { transform: translateX(-940px); }
     .our-blog .box-body-slide ul li { width: 22%; margin-left: 5px; }
     .box-body .box-items .box-image:after { height: 42%; }
-    .instructor .instructor-banner .join input { width: 40%; padding: 15px 90px; }
-    .instructor .instructor-banner .join button { padding: 15px 50px; }
+    .instructor .instructor-banner .join input {width: 45%;padding: 15px 90px;}
+    .instructor .instructor-banner .join button {padding: 15px 40px;}
     .footer .copyright span.copyright-left {
         font-size: 14px;
     }
-    .footer .contact .contact-left .contact-left-bottom { width: 50%; }
-    .footer .contact {padding-left: 5%;}
+    .footer .contact { padding-left: 15%; }
     .footer .contact .contact-left .contact-left-bottom { line-height: 30px; }
     .footer .contact .contact-left .contact-left-top { line-height: 28px; }
-    .footer .contact .contact-left .contact-left-top span {width: 80%;}
+    .footer .contact .contact-left .contact-left-top span { width: 75%; }
     .footer .contact .contact-left { padding-left: 8px; width: 100%; }
-    .footer .contact .contact-left .contact-left-top {margin-bottom: 10px;width: 45%;}
+    .footer .contact .contact-left .contact-left-top { margin-bottom: 10px; }
     .footer .contact .contact-right .menu .list-group .sub-menu li a { font-size: 14px; }
     .footer .contact .contact-right .menu .list-group>li { width: 45%; }
     .footer .contact .contact-right .menu .list-group>li { padding: 5px 7px; width: 45%; }
-    .footer .contact .contact-right .menu .list-group>li {padding: 25px 3px;width: 43%;}
+    .footer .contact .contact-right .menu .list-group>li {padding: 10px 7px;width: 40%;}
     .footer .contact .contact-right .menu .list-group .sub-menu li { padding: 5px 0px; }
     .footer .contact .contact-right .menu .list-group .list-link { padding-bottom: 10px; }
 }
