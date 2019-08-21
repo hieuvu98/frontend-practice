@@ -563,6 +563,9 @@
 @media screen and (max-width: 480px){
     .header .logo-header { width: 100%; }
     .header .header-nav .nav-right .list-group { padding-left: 15%; }
+    .header .header-nav .nav-right { width: 30%; padding-left: 0px;  }
+    .header .header-nav .nav-right .list-group li { padding: 0px; }
+    .header .header-nav .nav-right input#search.search-to-left { transform: translateX(-115px); width: 100px; }
     .box-body .box-items { width: 70%;}
     .top-course .box-course .box-body .box-items { margin: 10px 0px; width: 80%; }
     .categories .categories-title:after { left: 30%; }
@@ -589,8 +592,8 @@
     } 
     .our-blog .box-body .box-items .box-image:after { height: 42%; }
     .our-blog .box-body .box-items {margin: 0px 50px;}
-    .our-blog .box-body-slide ul.so1 { transform: translateX(-470px); }
-    .our-blog .box-body-slide ul.so2 { transform: translateX(-940px); }
+    .our-blog .box-body-slide ul.so1 {transform: translateX(-22%);}
+    .our-blog .box-body-slide ul.so2 {transform: translateX(-44%);}
     .our-blog .box-body-slide ul li { width: 22%; margin-left: 5px; }
     .box-body .box-items .box-image:after { height: 42%; }
     .instructor .instructor-banner .join input {width: 45%;padding: 15px 90px;}
