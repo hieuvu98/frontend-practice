@@ -18,11 +18,6 @@
     font-size: 36px;
 }
 
-.categories .categories-title:hover:after {
-    left: 43%;
-    bottom: -17px;
-}
-
 .categories .categories-title:after {
     position: absolute;
     content: '';
