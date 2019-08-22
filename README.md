@@ -7,7 +7,7 @@
 > Thực hiện bởi [Vũ Minh Hiếu](https://github.com/hieuvu230198)
 ## Liên Kết
 * Link PSD: [PSD](https://github.com/hieuvu230198/frontend-practice/blob/master/PSD/LMS%20New%20PSD-Recovered.psd)
-* Link ảnh: [Anh](https://github.com/hieuvu230198/frontend-practice/blob/master/PSD/LMS-New-PSD-Recovered.png)
+* Link ảnh: [PNG](https://github.com/hieuvu230198/frontend-practice/blob/master/PSD/LMS-New-PSD-Recovered.png)
 ## Kiến thức nắm được
 1. Sử dụng các công cụ trên photoshop để tính toán các thông số
 2. Lấy màu, chỡ chữ, kiểu chữ, tách cách layer trên photoshop
