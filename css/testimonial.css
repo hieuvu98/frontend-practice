@@ -108,8 +108,8 @@
     position: relative;
 }
 .testimonial .testimonial-footer .testimonial-slide .slick{
-    position: absolute;
-    top: 8%;
+    position: fixed;
+    bottom: 39%;
     left: 0%;
     width: 100%;
     transform: translateY(-50%);
