@@ -164,7 +164,6 @@ document.addEventListener("DOMContentLoaded", function() {
             countItems[j].classList.remove('list-active');
         }
         countItems[index].classList.add('list-active');
-        console.log(index);
     })
 
 
