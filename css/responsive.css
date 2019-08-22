@@ -289,12 +289,12 @@
         left: 80px;
     }
     .box-course .box-header .box-button {right: 10px;}
-    .popular-course .box-course .box-header .title{ width: 85%; padding-left: 20px; }
+    .popular-course .box-course .box-header .title{width: 90%;padding-left: 20px;}
     .testimonial .testimonial-header .title{ padding-left: 20px; width: 90%; }
     .testimonial .testimonial-footer .slide-logo.truotsangphai { transform: translateX(-720px); }
     h2.name {
         font-family: Roboto-Bold;
-        font-size: 26px;
+        font-size: 23px;
         color: #000000;
     }
     .testimonial .testimonial-body { justify-content: center; }
@@ -634,6 +634,6 @@
     .instructor .instructor-banner .join input {width: 69%;padding: 11px 38px;}
     video#myVideo { width: 325px; height: 240px; }
     .box-header .title { width: 90%; }
-    .footer .contact {padding-left: 4%;}
+    .footer .contact {padding-left: 3%;}
     .testimonial .testimonial-header .title { width: 85%; }
 }
