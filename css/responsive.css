@@ -569,7 +569,7 @@
     overflow-x: scroll;
     margin: auto;
 }
-::-webkit-scrollbar { 
+.our-blog .box-body-slide::-webkit-scrollbar { 
     opacity: 0; 
 }
     .header .logo-header { width: 100%; }
