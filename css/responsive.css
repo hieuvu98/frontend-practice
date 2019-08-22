@@ -630,9 +630,10 @@
 .logo img {
     width: 100%;
 }
-    .instructor .instructor-banner .join button { padding: 10px 49px; }
-    .instructor .instructor-banner .join input { width: 50%; padding: 11px 90px; }
+    .instructor .instructor-banner .join button {padding: 10px 49px;}
+    .instructor .instructor-banner .join input {width: 69%;padding: 11px 38px;}
     video#myVideo { width: 325px; height: 240px; }
     .box-header .title { width: 90%; }
     .footer .contact {padding-left: 4%;}
+    .testimonial .testimonial-header .title { width: 85%; }
 }
