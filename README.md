@@ -2,7 +2,7 @@
 
 ## Tiêu đề bài tập
 ### Frontend 1.3: PSD to HTML.
-* Link githubpage : [Demo](https://hieuvu230198.github.io/frontend-practice/)
+* Link githubpage : [Demo](https://hieuvu98.github.io/frontend-practice/)
 
 > Thực hiện bởi [Vũ Minh Hiếu](https://github.com/hieuvu230198)
 ## Liên Kết
